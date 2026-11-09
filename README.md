@@ -60,6 +60,7 @@ Read-only Telethon-сервис для поиска потенциальных �
 6. После создания отдельного Telegram-аккаунта заполните `TELEGRAM_API_ID` и `TELEGRAM_API_HASH`, затем выполните первый скан:
 
    ```bash
+   .venv/bin/migrai auth
    .venv/bin/migrai scan --sync-sheets --export-sheets
    ```
 
@@ -86,6 +87,7 @@ Read-only Telethon-сервис для поиска потенциальных �
 migrai db upgrade                   # применить миграции
 migrai db current                   # показать текущую миграцию
 migrai score "текст"                # проверить скоринг локально
+migrai auth                          # локально создать Telethon-сессию
 migrai sources sync                # синхронизировать источники из Sheets
 migrai scan                        # прочитать доступные источники
 migrai candidates export           # выгрузить кандидатов в Sheets

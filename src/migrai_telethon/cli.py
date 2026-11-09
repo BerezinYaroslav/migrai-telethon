@@ -118,6 +118,34 @@ def scan_command(
     asyncio.run(_scan(sync_sheets=sync_sheets, export_sheets=export_sheets))
 
 
+@app.command("auth")
+def auth_command() -> None:
+    """Локально авторизовать read-only Telethon-сессию без запуска сканирования."""
+    asyncio.run(_auth())
+
+
+async def _auth() -> None:
+    settings = get_settings()
+    _configure_logging(settings)
+    if not settings.telegram_ready:
+        raise typer.BadParameter("Заполните TELEGRAM_API_ID и TELEGRAM_API_HASH")
+
+    assert settings.telegram_api_id is not None
+    assert settings.telegram_api_hash is not None
+    async with ReadOnlyTelegramReader(
+        api_id=settings.telegram_api_id,
+        api_hash=settings.telegram_api_hash,
+        session_path=settings.telegram_session_path,
+        flood_sleep_threshold=settings.telegram_flood_sleep_threshold_seconds,
+        history_limit=settings.scan_history_limit,
+        incremental_limit=settings.scan_incremental_limit,
+        wait_time=settings.scan_wait_time_seconds,
+        comments_limit=settings.comments_limit_per_post,
+        reaction_users_limit=settings.reaction_users_limit,
+    ):
+        typer.echo(f"Telethon-сессия авторизована: {settings.telegram_session_path}")
+
+
 async def _scan(*, sync_sheets: bool, export_sheets: bool) -> None:
     settings = get_settings()
     _configure_logging(settings)

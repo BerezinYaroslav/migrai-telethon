@@ -1,0 +1,428 @@
+[
+  {
+    "sheet_row": 4,
+    "name": "Барселона - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+MFPqqhcy8n1kNjBi",
+    "country": "Испания"
+  },
+  {
+    "sheet_row": 5,
+    "name": "Валенсия - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+ORbC1oKv81FiNjNi",
+    "country": "Испания"
+  },
+  {
+    "sheet_row": 6,
+    "name": "Мадрид - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+OTjNrSnd2sg2ZTky",
+    "country": "Испания"
+  },
+  {
+    "sheet_row": 7,
+    "name": "Вена - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+jRAaYtssFGg0MGZi",
+    "country": "Австрия"
+  },
+  {
+    "sheet_row": 8,
+    "name": "Грац - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+Ru0ayyehYCY3ZTYy",
+    "country": "Австрия"
+  },
+  {
+    "sheet_row": 9,
+    "name": "Берлин - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+zZeO67BPP61jNmRi",
+    "country": "Германия"
+  },
+  {
+    "sheet_row": 10,
+    "name": "Гамбург - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+vWq2SbRGNTo0ZGNi",
+    "country": "Германия"
+  },
+  {
+    "sheet_row": 11,
+    "name": "Мюнхен - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+2QJeF5TwfEU4MjVi",
+    "country": "Германия"
+  },
+  {
+    "sheet_row": 12,
+    "name": "Франкфурт-на-Майне - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+LhvnFCq6URs4ZTky",
+    "country": "Германия"
+  },
+  {
+    "sheet_row": 13,
+    "name": "Лейпциг - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+is7MXJhpzSIwOWUy",
+    "country": "Германия"
+  },
+  {
+    "sheet_row": 14,
+    "name": "Вместе - Хорватия (Релокац)",
+    "telegram_ref": "https://t.me/+Vy5FGL77Gu04YmE0",
+    "country": "Хорватия"
+  },
+  {
+    "sheet_row": 15,
+    "name": "Лимассол - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+d0IO-ND4-GljZTcy",
+    "country": "Кипр"
+  },
+  {
+    "sheet_row": 16,
+    "name": "Пафос - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+dxeH7yM-wAYwMmQy",
+    "country": "Кипр"
+  },
+  {
+    "sheet_row": 17,
+    "name": "Прага - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+peL-tTG9TJVjMjhi",
+    "country": "Чехия"
+  },
+  {
+    "sheet_row": 18,
+    "name": "Копенгаген - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+ic00a-jV61AyOGIy",
+    "country": "Дания"
+  },
+  {
+    "sheet_row": 19,
+    "name": "Таллин - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+9RIdK955qU9jNzQy",
+    "country": "Эстония"
+  },
+  {
+    "sheet_row": 20,
+    "name": "Хельсинки - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+FkGgidKRsJc2NGQy",
+    "country": "Финляндия"
+  },
+  {
+    "sheet_row": 21,
+    "name": "Куопио - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+raLnVM2_zGoxYzVi",
+    "country": "Финляндия"
+  },
+  {
+    "sheet_row": 22,
+    "name": "Париж - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+OgVSeTMxReAwOGUy",
+    "country": "Франция"
+  },
+  {
+    "sheet_row": 23,
+    "name": "Монпелье - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+GY2jMCtStTY2ZDRi",
+    "country": "Франция"
+  },
+  {
+    "sheet_row": 24,
+    "name": "Афины - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+CcOGDNFMWUc5ODAy",
+    "country": "Греция"
+  },
+  {
+    "sheet_row": 25,
+    "name": "Будапешт - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+qym1m3sZvQxkOTgy",
+    "country": "Венгрия"
+  },
+  {
+    "sheet_row": 26,
+    "name": "Милан - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+ddYip22pwkMyZmVi",
+    "country": "Италия"
+  },
+  {
+    "sheet_row": 27,
+    "name": "Триест - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+02Nx6d-KxTY1ZWJi",
+    "country": "Италия"
+  },
+  {
+    "sheet_row": 28,
+    "name": "Рига - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+_C_j2A-lLvoyMDQy",
+    "country": "Латвия"
+  },
+  {
+    "sheet_row": 29,
+    "name": "Вильнюс - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+cEFSK-ISArY2NmIy",
+    "country": "Литва"
+  },
+  {
+    "sheet_row": 31,
+    "name": "Амстердам - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+_onwCqcMiAA5ZWQ6",
+    "country": "Нидерланды"
+  },
+  {
+    "sheet_row": 32,
+    "name": "Варшава - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+Wg7-Qs2XWusxMTli",
+    "country": "Польша"
+  },
+  {
+    "sheet_row": 33,
+    "name": "Вроцлав - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+oZGKhgO5xF5kNDIy",
+    "country": "Польша"
+  },
+  {
+    "sheet_row": 34,
+    "name": "Познань - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+MYY9Bsk9-io4ZDgyy",
+    "country": "Польша"
+  },
+  {
+    "sheet_row": 35,
+    "name": "Лиссабон - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+77iHCVLC4H8xNDM6",
+    "country": "Португалия"
+  },
+  {
+    "sheet_row": 36,
+    "name": "Порту - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+u2ir-yQF7GYzMjA6",
+    "country": "Португалия"
+  },
+  {
+    "sheet_row": 37,
+    "name": "Стокгольм - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+BtB43g3W-Hg4MTZi",
+    "country": "Швеция"
+  },
+  {
+    "sheet_row": 38,
+    "name": "Тель-Авив - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+4EeojsWu2iYwZDRi",
+    "country": "Израиль"
+  },
+  {
+    "sheet_row": 39,
+    "name": "Хайфа - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+sF-fvTc9PjVhMjc6",
+    "country": "Израиль"
+  },
+  {
+    "sheet_row": 40,
+    "name": "Сидней - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+vMs0zANME-A2Yjk6",
+    "country": "Австралия"
+  },
+  {
+    "sheet_row": 41,
+    "name": "Мельбурн - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+kfRhex1CnzAyNWIy",
+    "country": "Австралия"
+  },
+  {
+    "sheet_row": 42,
+    "name": "Буэнос-Айрес - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+pXJ6Bv6MYtk2NTIy",
+    "country": "Аргентина"
+  },
+  {
+    "sheet_row": 43,
+    "name": "Ереван - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+C4irvny9tE0zMGJi",
+    "country": "Армения"
+  },
+  {
+    "sheet_row": 44,
+    "name": "Тбилиси - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+avHMetTpQ0w2YmQy",
+    "country": "Грузия"
+  },
+  {
+    "sheet_row": 45,
+    "name": "Батуми - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+z5qcs3Ow1X9iYzky",
+    "country": "Грузия"
+  },
+  {
+    "sheet_row": 46,
+    "name": "Дубай - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+z0vMX1UHMXcxYjg6",
+    "country": "ОАЭ"
+  },
+  {
+    "sheet_row": 47,
+    "name": "Сан Пауло - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+eh0fbX96CkllZjQy",
+    "country": "Бразилия"
+  },
+  {
+    "sheet_row": 48,
+    "name": "Лондон - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+NjLiy2SYulM4OWMy",
+    "country": "Великобритания"
+  },
+  {
+    "sheet_row": 49,
+    "name": "Манчестер - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+t5JzPobpIeMyZWU6",
+    "country": "Великобритания"
+  },
+  {
+    "sheet_row": 50,
+    "name": "Вунгтау - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+0UMhojq4mb5kMzcy",
+    "country": "Вьетнам"
+  },
+  {
+    "sheet_row": 51,
+    "name": "Бали - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+T2UHzNGvpawwZGUy",
+    "country": "Индонезия"
+  },
+  {
+    "sheet_row": 52,
+    "name": "Алматы - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+95psPOnyvBxhMDAy",
+    "country": "Казахстан"
+  },
+  {
+    "sheet_row": 53,
+    "name": "Астана - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+Aep2gmgeUNJjMDRi",
+    "country": "Казахстан"
+  },
+  {
+    "sheet_row": 54,
+    "name": "Торонто - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+kWD_ZHvgZ1w0ZjNi",
+    "country": "Канада"
+  },
+  {
+    "sheet_row": 55,
+    "name": "Ванкувер - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+0TFWFju-9Gc2MWQy",
+    "country": "Канада"
+  },
+  {
+    "sheet_row": 56,
+    "name": "Бишкек - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+pN6XVCC6cvdjYjUy",
+    "country": "Кыргызстан"
+  },
+  {
+    "sheet_row": 57,
+    "name": "Кишинев - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+pY3xbEHafM8xOTE6",
+    "country": "Молдова"
+  },
+  {
+    "sheet_row": 58,
+    "name": "Осло - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+myqZj4iFYxphZmUy",
+    "country": "Норвегия"
+  },
+  {
+    "sheet_row": 59,
+    "name": "Белград - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+9hK6cvYbJIFjY2Qy",
+    "country": "Сербия"
+  },
+  {
+    "sheet_row": 60,
+    "name": "Нови Сад - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+SNY0a4mVkhdhYjNi",
+    "country": "Сербия"
+  },
+  {
+    "sheet_row": 61,
+    "name": "Суботица - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+yeHD2QZ5ezFhOGVi",
+    "country": "Сербия"
+  },
+  {
+    "sheet_row": 62,
+    "name": "Вашингтон ДиСи - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+Y6tBEi3Aui5lYmFi",
+    "country": "США"
+  },
+  {
+    "sheet_row": 63,
+    "name": "Нью-Йорк - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+Fo8KqQDXa8dhZjNi",
+    "country": "США"
+  },
+  {
+    "sheet_row": 64,
+    "name": "Лос-Анджелес - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+xmlqYDj5pUI1MGMy",
+    "country": "США"
+  },
+  {
+    "sheet_row": 65,
+    "name": "Чикаго - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+J3m-G7v7_pFjMjFi",
+    "country": "США"
+  },
+  {
+    "sheet_row": 66,
+    "name": "Майами - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+nA9fY6uQDr43NjMy",
+    "country": "США"
+  },
+  {
+    "sheet_row": 67,
+    "name": "Паттайя - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+EQJaRizoYNlkYjYy",
+    "country": "Таиланд"
+  },
+  {
+    "sheet_row": 68,
+    "name": "Стамбул - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+Wd1Kh6lAS9s0NzAy",
+    "country": "Турция"
+  },
+  {
+    "sheet_row": 69,
+    "name": "Измир - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+O26F2m2-XnU2ZmQy",
+    "country": "Турция"
+  },
+  {
+    "sheet_row": 70,
+    "name": "Ташкент - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+IABc_ViKyFJmODFi",
+    "country": "Узбекистан"
+  },
+  {
+    "sheet_row": 71,
+    "name": "Будва - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+BqF0--7--4s2YzIy",
+    "country": "Черногория"
+  },
+  {
+    "sheet_row": 72,
+    "name": "Херцег-Нови - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+OlSVOu4FlpMzMGUyy",
+    "country": "Черногория"
+  },
+  {
+    "sheet_row": 73,
+    "name": "Женева - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+hrVM7SSN5Ik0MWRi",
+    "country": "Швейцария"
+  },
+  {
+    "sheet_row": 74,
+    "name": "Сеул - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+KrqTaI8T2BA2MTcy",
+    "country": "Южная Корея"
+  },
+  {
+    "sheet_row": 75,
+    "name": "Токио - До встречи! (Релокац)",
+    "telegram_ref": "https://t.me/+EF0ehlUyBLE4MTdi",
+    "country": "Япония"
+  }
+]

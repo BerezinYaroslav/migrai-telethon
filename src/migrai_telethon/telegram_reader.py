@@ -3,15 +3,28 @@ from __future__ import annotations
 import logging
 from collections.abc import AsyncIterator
 from pathlib import Path
+from urllib.parse import urlparse
 
 from telethon import TelegramClient, errors, utils
 from telethon.tl.custom.message import Message
-from telethon.tl.functions.messages import GetMessageReactionsListRequest
-from telethon.tl.types import Channel, Chat, MessagePeerReaction, User
+from telethon.tl.functions.messages import CheckChatInviteRequest, GetMessageReactionsListRequest
+from telethon.tl.types import Channel, Chat, ChatInviteAlready, MessagePeerReaction, User
 
 from migrai_telethon.domain import ReactionActor, StoredSource, TelegramMessage, TelegramPerson
 
 logger = logging.getLogger(__name__)
+
+
+def telegram_invite_hash(reference: str) -> str | None:
+    parsed = urlparse(reference)
+    if parsed.netloc.casefold() not in {"t.me", "telegram.me", "www.t.me", "www.telegram.me"}:
+        return None
+    path = parsed.path.strip("/")
+    if path.startswith("+") and len(path) > 1:
+        return path[1:]
+    if path.startswith("joinchat/") and len(path) > len("joinchat/"):
+        return path.split("/", 1)[1]
+    return None
 
 
 class ReadOnlyTelegramReader:
@@ -52,7 +65,7 @@ class ReadOnlyTelegramReader:
         await self.__client.disconnect()
 
     async def iter_messages(self, source: StoredSource) -> AsyncIterator[TelegramMessage]:
-        entity = await self.__client.get_entity(source.telegram_ref)
+        entity = await self._resolve_entity(source.telegram_ref)
         if not isinstance(entity, (Channel, Chat)):
             raise ValueError(f"Источник {source.telegram_ref!r} не является чатом или каналом")
 
@@ -86,7 +99,7 @@ class ReadOnlyTelegramReader:
     async def iter_comments(
         self, source: StoredSource, message_id: int
     ) -> AsyncIterator[TelegramMessage]:
-        entity = await self.__client.get_entity(source.telegram_ref)
+        entity = await self._resolve_entity(source.telegram_ref)
         if not isinstance(entity, Channel):
             return
         try:
@@ -117,7 +130,8 @@ class ReadOnlyTelegramReader:
     async def iter_reaction_actors(
         self, source: StoredSource, message_id: int
     ) -> AsyncIterator[ReactionActor]:
-        entity = await self.__client.get_input_entity(source.telegram_ref)
+        resolved = await self._resolve_entity(source.telegram_ref)
+        entity = await self.__client.get_input_entity(resolved)
         offset: str | None = None
         remaining = self._reaction_users_limit
 
@@ -160,6 +174,24 @@ class ReadOnlyTelegramReader:
             offset = result.next_offset
             if not offset:
                 return
+
+    async def _resolve_entity(self, reference: str) -> Channel | Chat:
+        invite_hash = telegram_invite_hash(reference)
+        if reference.lstrip("-").isdigit():
+            entity = await self.__client.get_entity(int(reference))
+        elif invite_hash is None:
+            entity = await self.__client.get_entity(reference)
+        else:
+            invite = await self.__client(CheckChatInviteRequest(invite_hash))
+            if not isinstance(invite, ChatInviteAlready):
+                raise ValueError(
+                    "Аккаунт не состоит в чате по пригласительной ссылке "
+                    f"{reference!r}; автоматическое вступление отключено"
+                )
+            entity = invite.chat
+        if not isinstance(entity, (Channel, Chat)):
+            raise ValueError(f"Источник {reference!r} не является чатом или каналом")
+        return entity
 
     async def _convert_message(
         self, source: StoredSource, entity: Channel | Chat, message: Message

@@ -1,0 +1,46 @@
+{
+  "summary": {
+    "chat_title": "Грац 🇦🇹– До встречи!",
+    "chat_id": 3055023236,
+    "messages_seen": 100,
+    "messages_with_text": 41,
+    "matched_messages": 2,
+    "unique_authors_with_signal": 2,
+    "candidates_above_threshold": 1,
+    "threshold": 5
+  },
+  "candidates": [
+    {
+      "user_id": 816207804,
+      "username": "dariella_01",
+      "display_name": "meow",
+      "best_score": 7,
+      "total_score": 7,
+      "hits": 1,
+      "topics": [
+        "residence"
+      ],
+      "countries": [],
+      "best_link": "https://t.me/c/3055023236/75",
+      "best_date": "2026-05-06T05:57:28+00:00",
+      "best_excerpt": "Всем привет! Могу ли попросить помощи у вас? Собираюсь переезжать в Австрию, но не знаю какую лазейку найти чтобы получить ВНЖ Какой у вас опыт и чем бы поделились? Буду благодарна 🙏🏻"
+    }
+  ],
+  "near_miss_top10": [
+    {
+      "user_id": 173454350,
+      "username": "SFiter",
+      "display_name": "Egor Abramov",
+      "best_score": 3,
+      "total_score": 3,
+      "hits": 1,
+      "topics": [
+        "family"
+      ],
+      "countries": [],
+      "best_link": "https://t.me/c/3055023236/40",
+      "best_date": "2025-09-28T21:31:05+00:00",
+      "best_excerpt": "Я вот уехал из Москвы 22 сентября 2022 года, месяц прожил в Казахстане, в Уральске, потом приехал в Грац и вышел на работу в АВЛ Лист. Через пару месяцев перевез семью. С тех пор не был в России. Но жена с дочкой каждое лето летают в Москву)"
+    }
+  ]
+}
